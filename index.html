@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="somar">
+        <label for="x"> Primeiro Numero</label>
+        <input type="text" name="x" id="x">
+        <label for="y"> Segundo Numero</label>
+        <input type="text" name="y" id="y">
+        <input type="button" class="botao" onclick="somar ()" value="somar">
+    </div>
+
+    <div class="somar">
+        <input type="number" name="x_quadrado" id="x_quadrado">
+        <input type="button" class="botao" onclick="multiplica ()" value="Quadrado">
+    </div>
+
+    <div class="somar">
+        <label>Escreva Seu Nome</label>
+        <input type="text" name="x" id="x_nome">
+        <input type="button" class="botao" onclick="ChamarAlerta()" value="Confirmar" >
+        <h1 id="MeuNome"></h1>
+    </div>
+
+    <div class="somar">
+        <label for="x"> Primeiro Numero</label>
+        <input type="text" name="x" id="xOP">
+        <label for="y"> Segundo Numero</label>
+        <input type="text" name="y" id="yOP">
+        <input type="button" class="botao" onclick="Adicionando ()" value="Adicionando">
+        <input type="button" class="botao" onclick="Subtraindo ()" value="Subtraindo">
+        <input type="button" class="botao" onclick="Multiplicando ()" value="Multiplicando">
+        <input type="button" class="botao" onclick="Dividindo ()" value="Dividindo">
+    </div>
+
+    <div class="somar">
+        <input type="date" id="Idade" name="Idade">
+        <input type="button" class="botao" onclick="x ()" value="Idade">
+    </div>
+
+    <script src="./Js/script.js"></script>
+
+</body>
+
+</html>
